@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f9fafc;
+    color: #333;
+}
+
+/* Navbar Styling */
+.navbar {
+    background-color: #1bb293;
+}
+
+.navbar-brand {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.navbar-nav .nav-link {
+    color: #f0f0f0;
+    margin-left: 15px;
+    transition: color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #d1e7dd;
+}
+
+/* Section Styling */
+section {
+    padding: 70px 0;
+}
+
+h2 {
+    font-size: 2.25rem;
+    color: #004d40;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+/* Features Section */
+.features-section {
+    background-color: #e0f7fa;
+}
+
+.features-section .card {
+    border: none;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    border-radius: 10px;
+}
+
+.features-section .card:hover {
+    transform: translateY(-10px);
+    background-color: #ffffff;
+}
+
+.features-section .card-title {
+    color: #00796b;
+    font-size: 1.25rem;
+}
+
+/* Pricing Section */
+#pricing .card {
+    border: none;
+    background-color: #ffffff;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    transition: box-shadow 0.3s, transform 0.3s;
+}
+
+#pricing .card:hover {
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
+    transform: scale(1.02);
+}
+
+#pricing .card-title {
+    color: #004d40;
+}
+
+/* About Section */
+#about {
+    background-color: #fafafa;
+}
+
+#about .card {
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+#about .card h5 {
+    color: #00796b;
+}
+
+/* Contact Us Section */
+.contact-us-section {
+    background-color: #e0f7fa;
+    color: #000;
+    color: #ffffff;
+}
+
+.contact-us-section input,
+.contact-us-section textarea {
+    /* background-color: #e0f2f1; */
+    border: 1px solid #00695c;
+    color: #004d40;
+}
+
+.contact-us-section input:focus,
+.contact-us-section textarea:focus {
+    border-color: #00796b;
+    box-shadow: none;
+}
+
+.contact-us-section .btn-success {
+    background-color: #00796b;
+    border: none;
+    transition: background-color 0.3s;
+    display: inline-block;
+    width: 100%;
+}
+
+.contact-us-section .btn-success:hover {
+    background-color: #004d40;
+}
+
+/* Footer Styling */
+.footer {
+    background-color: #1bb293;
+    color: #e0f7fa;
+    padding: 20px 0;
+    font-size: 0.9rem;
+}
+
+.footer a {
+    color: #b2dfdb;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #ffffff;
+}
+
+.lead{
+    color: #000;
+}
+/* Keyframe Animations */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateX(-30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.contact-form{
+    max-width: 600px;
+    color: #000;
+    text-align: left;
+}
