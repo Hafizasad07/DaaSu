@@ -14,14 +14,14 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container">
-            <a class="navbar-brand" href="index.html">DaaSu App</a>
+            <a class="navbar-brand" href="index.html"><img src="assets/images/logo.png" alt=""></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="feature.html">Features</a>
+                        <a class="nav-link" href="feature.html">Free Trial</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#contact-us">Contact Us</a>
@@ -35,7 +35,7 @@
     <section class="features-section" id="features">
         <div class="container text-center">
             <h2 class="display-5">Features Tailored for Every Business Need</h2>
-            <p class="lead">DaaSu App offers an extensive range of modules to streamline your operations and drive growth.</p>
+            <p class="lead pb-3">DaaSu App offers an extensive range of modules to streamline your operations and drive growth.</p>
 
             <div class="row">
                 <div class="col-md-4 mb-4">
@@ -93,58 +93,80 @@
         <div class="container text-center">
           <h2 class="mb-4">Affordable Pricing Plans for Every Business</h2>
           <p class="mb-5">Whether you’re a startup or an established enterprise, we have a plan for you.</p>
-          <div class="row">
-            <!-- Basic Plan -->
-            <div class="col-md-3 mb-4">
-              <div class="card h-100 p-3" data-aos="fade-up">
-                <div class="card-body">
-                  <h4 class="card-title">Basic Plan (Free)</h4>
-                  <p>1 User - Limited access to basic features</p>
-                  <p>Best For: Startups</p>
-                </div>
-              </div>
-            </div>
-            <!-- Standard Plan -->
-            <div class="col-md-3 mb-4">
-              <div class="card h-100 p-3 shadow border-primary" data-aos="fade-up" data-aos-delay="100">
-                <div class="card-body">
-                  <h4 class="card-title">Standard Plan (Subscription)</h4>
-                  <p>Up to 3 Users - Access to core + advanced ERP modules</p>
-                  <p>Best For: Growing businesses</p>
-                </div>
-              </div>
-            </div>
-            <!-- Professional Plan -->
-            <div class="col-md-3 mb-4">
-              <div class="card h-100 p-3" data-aos="fade-up" data-aos-delay="200">
-                <div class="card-body">
-                  <h4 class="card-title">Professional Plan (Subscription)</h4>
-                  <p>Up to 5 Users - Full access with advanced tools</p>
-                  <p>Best For: Large businesses</p>
-                </div>
-              </div>
-            </div>
-            <!-- Premium Plan -->
-            <div class="col-md-3 mb-4">
-              <div class="card h-100 p-3" data-aos="fade-up" data-aos-delay="300">
-                <div class="card-body">
-                  <h4 class="card-title">Premium Plan (Subscription)</h4>
-                  <p>Up to 10 Users - Full suite, CRM, forecasting</p>
-                  <p>Best For: Tailored solutions</p>
-                </div>
-              </div>
-            </div>
-          </div>
+          <div class="table-responsive">
+            <table class="table table-bordered pricing-table bg-white">
+                <thead>
+                    <tr>
+                        <th>Features</th>
+                        <th>Basic (free)</th>
+                        <th>Standard (INR 349/month)</th>
+                        <th>Professional (INR 749/month)</th>
+                        <th>Premium (INR 1499/month)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Mobile access</td>
+                        <td>Read-only</td>
+                        <td>Full access</td>
+                        <td>Full access + offline mode</td>
+                        <td>Full access + offline + mobile custom apps</td>
+                    </tr>
+                    <tr>
+                        <td>Customer support</td>
+                        <td>E-mail support</td>
+                        <td>E-mail + chat support</td>
+                        <td>Priority support</td>
+                        <td>24/7 dedicated support</td>
+                    </tr>
+                    <tr>
+                        <td>Customization</td>
+                        <td>None</td>
+                        <td>Basic templates</td>
+                        <td>Customization workflows</td>
+                        <td>Full customization option</td>
+                    </tr>
+                    <tr>
+                        <td>User Training</td>
+                        <td>None</td>
+                        <td>Basic training videos</td>
+                        <td>Training + webinars</td>
+                        <td>Dedicated onboarding + training</td>
+                    </tr>
+                    <tr>
+                        <td>Automation</td>
+                        <td>None</td>
+                        <td>Basic task automations</td>
+                        <td>Advanced task automations</td>
+                        <td>Full business process automation</td>
+                    </tr>
+                    <tr>
+                        <td>Role based access control</td>
+                        <td>None</td>
+                        <td>Yes</td>
+                        <td>Yes + customizable roles</td>
+                        <td>Yes + advanced permission settings</td>
+                    </tr>
+                    <tr>
+                        <td>Security</td>
+                        <td>Basic security</td>
+                        <td>Enhanced security features</td>
+                        <td>Multi-factor authentication</td>
+                        <td>Enterprise-grade security</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
         </div>
       </section>
-      <section id="about" class="py-5 bg-light" data-aos="fade-in">
-        <div class="container mt-4">
+      <section id="about" class="pb-5 bg-light" data-aos="fade-in">
+        <div class="container">
             <div class="row">
                 <div class="col-md-12">
                     <div class="card p-4 shadow-sm" style="background-color: #f7f9fc; border-radius: 10px;">
                         <div class="d-flex justify-content-between align-items-center">
-                            <div class="d-flex align-items-center">
-                                <img src="assets/images/person.png" alt="CEO Photo" class="rounded-circle me-2" style="width: 50px; height: 50px;">
+                            <div class="d-flex align-items-center ceo-section">
+                                <img src="assets/images/person.jpeg" alt="CEO Photo" class="rounded-circle me-2 ">
                                 <div>
                                     <strong>Shri Ram</strong><br>
                                     <small>CEO, DaaSu App</small>
@@ -223,24 +245,23 @@
         <div class="container py-4">
             <div class="row">
                 <!-- Quick Links -->
-                <div class="col-md-3 mb-3">
+                <div class="col-md-2 mb-2">
                     <h5>Quick Links</h5>
                     <ul class="list-unstyled">
-                        <li><a href="#" class="text-light text-decoration-none">Home</a></li>
-                        <li><a href="#features" class="text-light text-decoration-none">Features</a></li>
+                        <li><a href="index.html" class="text-light text-decoration-none">Home</a></li>
+                        <li><a href="feature.html" class="text-light text-decoration-none">Free Trial</a></li>
                         <li><a href="#pricing" class="text-light text-decoration-none">Pricing</a></li>
                         <li><a href="#about" class="text-light text-decoration-none">About Us</a></li>
                         <li><a href="#contact-us" class="text-light text-decoration-none">Contact Us</a></li>
-                        <li><a href="#demo" class="text-light text-decoration-none">Demo</a></li>
                     </ul>
                 </div>
     
                 <!-- Contact Information -->
-                <div class="col-md-4 mb-3">
-                    <h5>Contact Information</h5>
-                    <p><i class="bi bi-telephone"></i> Phone: +123 456 7890</p>
-                    <p><i class="bi bi-envelope"></i> Email: <a href="mailto:info@daasuapp.com" class="text-light">info@daasuapp.com</a></p>
-                    <p><i class="bi bi-geo-alt"></i> Address: 123 Main Street, City, Country</p>
+                <div class="col-md-4 mb-3 contact-info">
+                    <h5>Contact Info</h5>
+                    <p><i class="bi bi-telephone"></i> Phone: <a href="tel:+917303500254" class="text-white">+91 7303500254</a></p>                    
+                    <p><i class="bi bi-envelope"></i> Email: <a href="mailto:daasuapp@gmail.com" class="text-light">daasuapp@gmail.com</a></p>
+                    <p><i class="bi bi-geo-alt"></i> Jaithari Main Road, Barri, Anuppur, MP - 484224</p>
                 </div>
     
                 <!-- Social Media Links -->
@@ -251,22 +272,20 @@
                         <a href="#" class="text-light me-3"><i class="bi bi-twitter fs-4"></i></a>
                         <a href="#" class="text-light me-3"><i class="bi bi-linkedin fs-4"></i></a>
                         <a href="#" class="text-light me-3"><i class="bi bi-instagram fs-4"></i></a>
+                        <a href="#" class="text-light me-3"><i class="bi bi-youtube fs-4"></i></a>
                     </div>
                 </div>
     
                 <!-- Newsletter Signup -->
-                <div class="col-md-2 mb-3">
-                    <h5>Stay Updated</h5>
-                    <form>
-                        <div class="mb-2">
-                            <input type="email" class="form-control text-white border-light" placeholder="Your email" required>
-                        </div>
-                        <button type="submit" class="btn btn-primary btn-sm">Subscribe</button>
-                    </form>
+                <div class="col-md-3 mb-4">
+                    <h5>Download Now</h5>
+                    <div class="google-flex">
+                        <div><a href="#"><img src="assets/images/google_play.PNG" alt=""></a></div>
+                        <div><a href="#"><img src="assets/images/google_play2.PNG" alt=""></a></div>
+                    </div>
                 </div>
             </div>
         </div>
-    
         <div class="text-center py-2">
             <p class="mb-0">&copy; 2024 DaaSu App by RBrothers e-Commerce Pvt Ltd. All Rights Reserved.</p>
             <p class="mb-0"><a href="#" class="text-light text-decoration-none">Privacy Policy</a> | <a href="#" class="text-light text-decoration-none">Terms of Service</a></p>

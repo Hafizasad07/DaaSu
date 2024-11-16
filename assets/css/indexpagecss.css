@@ -20,9 +20,14 @@ body {
 .navbar {
     background-color: #1bb293;
 }
+
 .navbar-brand {
     color: white;
     font-weight: bold;
+}
+
+.navbar-brand img{
+    width: 70px !important;
 }
 .navbar-nav .nav-link {
     color: white;
@@ -102,7 +107,9 @@ a{
 }
 
 .section1{
-    padding: 40px 0px;
+    padding: 40px 0px 60px;
+    color: #fff;
+    background-color: #1bb293;
 }
 
 .icon-container {
@@ -128,4 +135,24 @@ a{
 
 .section2 img{
     width:80%;
+}
+
+.google-flex {
+    display: flex;
+    gap: 20px;
+}
+
+.google-flex img{
+    width: 100%;
+    border-radius: 8px;
+}
+
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+
+@media screen and (max-width:767px) {
+    .hero-section{
+        padding: 40px 0px;
+    }
 }

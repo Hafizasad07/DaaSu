@@ -14,13 +14,13 @@ body {
 }
 
 .navbar-brand {
-    color: #ffffff;
-    font-weight: 700;
-    font-size: 1.5rem;
+    color: white;
+    font-weight: bold;
 }
 
+
 .navbar-nav .nav-link {
-    color: #f0f0f0;
+    color: #fff;
     margin-left: 15px;
     transition: color 0.3s;
 }
@@ -30,9 +30,7 @@ body {
 }
 
 /* Section Styling */
-section {
-    padding: 70px 0;
-}
+
 
 h2 {
     font-size: 2.25rem;
@@ -46,7 +44,9 @@ p {
 }
 
 /* Features Section */
+
 .features-section {
+    padding: 70px 0;
     background-color: #e0f7fa;
 }
 
@@ -55,6 +55,7 @@ p {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .features-section .card:hover {
@@ -102,6 +103,7 @@ p {
 .contact-us-section {
     background-color: #e0f7fa;
     color: #000;
+    padding: 60px 0px;
     color: #ffffff;
 }
 
@@ -135,7 +137,7 @@ p {
     background-color: #1bb293;
     color: #e0f7fa;
     padding: 20px 0;
-    font-size: 0.9rem;
+    font-size: 0.9rem !important;
 }
 
 .footer a {
@@ -150,6 +152,12 @@ p {
 .lead{
     color: #000;
 }
+
+.contact-info p{
+    font-size: 0.9rem !important;
+
+}
+
 /* Keyframe Animations */
 @keyframes fadeInUp {
     from {
@@ -177,4 +185,37 @@ p {
     max-width: 600px;
     color: #000;
     text-align: left;
+}
+
+.google-flex {
+    display: flex;
+    gap: 20px;
+}
+
+.google-flex img{
+    width: 100%;
+    border-radius: 8px;
+}
+
+.navbar-brand img{
+    width: 70px !important;
+}
+
+.ceo-section img{
+    width: 100px; 
+    height: 100px;
+}
+
+.pricing-table th, .pricing-table td {
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px 18px;
+}
+.pricing-table th {
+    background-color: #333;
+    color: #fff;
+}
+.pricing-table td:first-child {
+    text-align: left;
+    font-weight: bold;
 }
