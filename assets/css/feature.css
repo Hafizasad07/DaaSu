@@ -206,9 +206,17 @@ p {
 }
 
 .navbar-brand img{
-    width: 70px !important;
+    width: 90px !important;
 }
 
+.btn{
+    background: #ff703c;
+    border: none;
+}
+
+.btn:hover{
+    background: #1bb293;
+}
 .ceo-section img{
     width: 90px; 
     height: 90px;

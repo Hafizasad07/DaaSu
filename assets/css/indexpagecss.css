@@ -27,7 +27,7 @@ body {
 }
 
 .navbar-brand img{
-    width: 70px !important;
+    width: 90px !important;
 }
 .navbar-nav .nav-link {
     color: white;
@@ -36,6 +36,17 @@ body {
 .cta-buttons .btn {
     margin: 10px;
     padding: 10px 20px;
+    background: #ff703c;
+    border: none;
+    color: #fff;
+}
+
+.btn{
+    background: #ff703c;
+}
+
+.cta-buttons .btn:hover{
+    background-color: #1bb293;
 }
 
 /* Features Section */
