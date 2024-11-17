@@ -56,11 +56,19 @@ p {
     transition: transform 0.3s;
     border-radius: 10px;
     cursor: pointer;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .features-section .card:hover {
     transform: translateY(-10px);
     background-color: #ffffff;
+}
+
+.features-section .card img{
+    width: 100px;
+    margin-top: 20px;
 }
 
 .features-section .card-title {
@@ -202,8 +210,8 @@ p {
 }
 
 .ceo-section img{
-    width: 100px; 
-    height: 100px;
+    width: 90px; 
+    height: 90px;
 }
 
 .pricing-table th, .pricing-table td {
