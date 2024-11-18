@@ -166,6 +166,10 @@ a{
     width: 100px;
     margin-bottom: 10px;
 }
+
+.twitter img{
+    width: 25px;
+}
 @media screen and (max-width:767px) {
     .hero-section{
         padding: 40px 0px;

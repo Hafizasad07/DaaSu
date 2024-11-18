@@ -235,3 +235,7 @@ p {
     text-align: left;
     font-weight: bold;
 }
+
+.twitter img{
+    width: 25px;
+}
