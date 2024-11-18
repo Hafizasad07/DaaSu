@@ -239,3 +239,10 @@ p {
 .twitter img{
     width: 25px;
 }
+
+.end-comma{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: rotate(180deg);
+}
